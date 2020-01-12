@@ -3,7 +3,22 @@ export interface Node {
   neighbors: Node[];
 }
 
-// The algorithm in practice
+
+/*
+
+Sample graph to operate over.
+
+      1
+     / \
+    2   3
+       / \
+      0   4
+      |   |
+      |   6    8-7
+       \ /
+        5
+
+*/
 
 export const node0: Node = {
   name: '0',
